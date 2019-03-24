@@ -1,6 +1,6 @@
 import React from 'react';
 import Enzyme, {shallow, mount} from 'enzyme';
-import AdminNotice from "../src/AdminNotice";
+import { AdminNotice } from "../lib/index.js";
 import Adapter from 'enzyme-adapter-react-16';
 
 Enzyme.configure({adapter: new Adapter()});

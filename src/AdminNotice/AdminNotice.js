@@ -2,9 +2,10 @@ import React, {Component} from 'react';
 
 class AdminNotice extends Component {
 
-	state = {
-		opacity: 1
-	};
+	constructor(props) {
+		super(props);
+		this.state = {opacity: 1};
+	}
 
 	decreaseOpacity() {
 		setTimeout(() => {

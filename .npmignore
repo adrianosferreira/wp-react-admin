@@ -1,0 +1,6 @@
+src/
+test/
+.npmignore
+.babelrc
+travis.yml
+webpack.config.js
