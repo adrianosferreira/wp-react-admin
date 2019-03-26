@@ -11,6 +11,9 @@
     "test": "jest --verbose",
     "transpile": "babel src -d lib --ignore \"src/**/*.md\""
   },
+  "peerDependencies": {
+    "react": "^16.4.0"
+  },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
