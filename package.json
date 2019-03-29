@@ -1,13 +1,13 @@
 {
   "name": "@adrianoferreira/wp-react-admin",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "description": "",
   "main": "lib/index.js",
   "author": "",
   "license": "ISC",
   "repository": "https://github.com/adrianosferreira/wp-react-admin",
   "scripts": {
-    "build": "webpack",
+    "build": "babel src --out-dir lib",
     "test": "jest --verbose",
     "transpile": "babel src -d lib --ignore \"src/**/*.md\""
   },
