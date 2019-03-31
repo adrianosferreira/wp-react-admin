@@ -1,2 +1,3 @@
 import AdminNotice from './AdminNotice/AdminNotice.js';
-export { AdminNotice };
+import Tabs from './Tabs/Tabs.js';
+export { AdminNotice, Tabs };
