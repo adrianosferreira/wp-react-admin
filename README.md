@@ -9,6 +9,7 @@ This package provides a set of React components for producing WordPress UI eleme
 You will find each component documentation on its respective folder under `./src`. 
 
 - [Admin notice](https://github.com/adrianosferreira/wp-react-admin/tree/master/src/AdminNotice)
+- [Tabs](https://github.com/adrianosferreira/wp-react-admin/tree/master/src/Tabs)
 
 ### Installation
 

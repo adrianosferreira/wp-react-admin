@@ -5,7 +5,7 @@ WordPress admin notice component.
 ### Usage
 
 ```javascript
-import { AdminNotice } from 'wp-react-admin';
+import { AdminNotice } from "@adrianoferreira/wp-react-admin";
 
 <AdminNotice dismissible={true} type='error' disappear={true} message="Saved Successfully"/>
 ```

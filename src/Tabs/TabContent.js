@@ -6,13 +6,11 @@ class TabContent extends Component {
 			display: this.props.isActive ? 'block' : 'none'
 		};
 
-		return (
-			<React.Fragment>
+		return (<React.Fragment>
 				<div className="wrap" style={style}>
 					{this.props.content}
 				</div>
-			</React.Fragment>
-		);
+			</React.Fragment>);
 	}
 }
 
