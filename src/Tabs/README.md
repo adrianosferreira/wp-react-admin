@@ -1,6 +1,6 @@
-# Admin Notice
+# Tabs
 
-WordPress admin notice component.
+WordPress tab component.
 
 ### Usage
 
